@@ -20,7 +20,7 @@ h1 {
     position: relative;
     display: block;
     font-size: 1500%;
-    animation: Portail 3s infinite;
+    animation: Portail 2s linear infinite;
     flex: 2;
 }
 .blue-portal {
@@ -51,6 +51,5 @@ h1 {
 h2 {
     position: relative;
     text-align: center;
-    
     margin-top: -300px;
 }
