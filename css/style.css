@@ -1,3 +1,56 @@
+@font-face {
+    font-family: wire-one;
+    src: url(./fonts/wire-one/WireOne.ttf);
+}
+@keyframes Portail {
+    0%   {left:-15%; top:0%;}
+    100%  {left:58%; top:0%;}    
+}
 body {
+    background-color: black;
+    color: white;
+    font-family: wire-one;
+    overflow: hidden;
+}
+.error404 {
+    display: flex;
+    margin: 150px;
+}
+h1 {
+    position: relative;
+    display: block;
+    font-size: 1500%;
+    animation: Portail 3s infinite;
+    flex: 2;
+}
+.blue-portal {
+    display: block;
+    flex: 1;    
+}
+.orange-portal {
+    display: block;
+    flex: 1;
+}
+.hidden {
+    position: absolute;
+    display: block;
+    background: rgba(0, 0, 0, 0);
+    z-index: 1;
+    margin: 150px;
+    right: 43px;
+    top: 33px;
+}
+.hidden > img {
+    height: 545px;
+}
+.errorgoback {
+    position: relative;
+    text-align: center;
+    font-size: 250%;
+}
+h2 {
+    position: relative;
+    text-align: center;
     
+    margin-top: -300px;
 }
